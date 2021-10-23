@@ -1,0 +1,51 @@
+Input file for Annealing program.
+
+Any line which does not start with a valid name is ignored and can be used as a comment line.
+
+General Parameters
+BLM	0
+PROP	0.5
+RANDSEED	-1
+NUMREPS	50
+
+Annealing Parameters
+NUMITNS	200000000
+STARTTEMP	-1
+NUMTEMP	1000000
+
+Input Files
+INPUTDIR	input
+AVAILABLEZONE 28
+PUNAME	pu_2costs.dat
+FEATNAME	targetsAgric.dat
+PUVSPRNAME	puorder.dat
+MATRIXSPORDERNAME	sporder.dat
+ZONESNAME	zones28.dat
+COSTSNAME	costs.dat
+ZONECOSTNAME	zonecost28.dat
+ZONECONTRIBNAME	zonecontrib28.dat
+PULOCKNAME	pulock30perc.dat
+PUZONENAME	puzone30perc.dat
+
+Save Files
+SCENNAME	GDNH
+SAVERUN	3
+SAVEBEST	3
+SAVESUMMARY	3
+SAVESCEN	3
+SAVETARGMET	3
+SAVESUMSOLN	0
+SAVEPENALTY	3
+SAVELOG	2
+SAVESOLUTIONSMATRIX	0
+OUTPUTDIR	output
+
+Program control.
+RUNMODE	1
+MISSLEVEL	0.99
+ITIMPTYPE	0
+VERBOSITY	3
+
+SAVEANNEALINGTRACE	0
+ANNEALINGTRACEROWS	1000
+SAVESPECIESDATA	3
